@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	color: #2476ef;
+	border-bottom: 2px lightpink;
+	border-right: 2px lightpink;
+	text-align: center;
+	margin-top: 10px;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+ img:hover{
+ 	transform: scale(1.1);
+ }
